@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Projects() {
     return (
-        <section id="projects" className="py-24 px-6 bg-black text-white scroll-mt-24">
+        <section id="projects" className="py-24 px-6 bg-white text-slate-900 dark:bg-slate-950 dark:text-white scroll-mt-24 transition-colors">
             <div className="max-w-6xl mx-auto">
 
                 <h2 className="text-4xl font-bold mb-12 text-center">
@@ -16,7 +16,7 @@ export default function Projects() {
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className="group p-6 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition duration-300"
+                            className="group p-6 rounded-2xl border border-slate-200 dark:border-white/10 bg-slate-100 dark:bg-white/5 hover:bg-slate-200 dark:hover:bg-white/10 transition duration-300"
                         >
                             {/* Title */}
                             <h3 className="text-2xl font-semibold mb-3">
@@ -24,12 +24,12 @@ export default function Projects() {
                             </h3>
 
                             {/* Description */}
-                            <p className="text-gray-400 mb-4">
+                            <p className="text-slate-600 dark:text-slate-400 mb-4">
                                 {project.desc}
                             </p>
 
                             {/* Highlights */}
-                            <ul className="text-sm text-gray-400 mb-4 space-y-1">
+                            <ul className="text-sm text-slate-600 dark:text-slate-400 mb-4 space-y-1">
                                 {project.highlights.map((item, i) => (
                                     <li key={i}>• {item}</li>
                                 ))}
@@ -40,7 +40,7 @@ export default function Projects() {
                                 {project.tech.map((t, i) => (
                                     <span
                                         key={i}
-                                        className="text-xs px-3 py-1 bg-white/10 rounded-full"
+                                        className="text-xs px-3 py-1 bg-slate-200 dark:bg-white/10 rounded-full"
                                     >
                                         {t}
                                     </span>

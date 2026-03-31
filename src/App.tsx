@@ -25,7 +25,7 @@ function App() {
 
 
   return (
-    <div className="bg-black text-white min-h-screen font-sans">
+    <div className="min-h-screen font-sans bg-white text-slate-900 transition-colors dark:bg-slate-950 dark:text-white">
       <Navbar dark={dark} setDark={setDark} />
       <Hero />
       <About />
