@@ -1,73 +1,92 @@
-# React + TypeScript + Vite
+# 💼 Miên's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend Developer specializing in React, TypeScript, and scalable UI systems.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 About
 
-## React Compiler
+This is my personal portfolio website showcasing my experience, projects, and skills as a Frontend Engineer with 2+ years of experience building data-driven applications and high-performance user interfaces.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal of this project is not only to present my work, but also to demonstrate my approach to clean code, UI architecture, and modern frontend development.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- ⚛️ React
+- 🟦 TypeScript
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🧠 Modern React Hooks & Patterns
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ✨ Features
+
+- 🌙 Light / Dark mode toggle
+- ⚡ Smooth scrolling navigation
+- 📱 Fully responsive design
+- 🎯 Clean and minimal UI
+- 📄 Downloadable Resume
+- 🔗 External links (GitHub, LinkedIn, Email)
+
+---
+
+## 📂 Project Structure
+```bash
+src/
+ ├── components/
+ ├── sections/
+ ├── assets/
+ ├── App.tsx
+ └── main.tsx
+ ```
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/your-repo.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 2. Install dependencies
+```bash
+npm install
 ```
+
+### 3. Run the project
+```bash
+npm run dev
+```
+---
+
+## 🌐 Deployment
+
+You can deploy this project easily using:
+
+- Vercel
+- Netlify
+- GitHub Pages
+
+---
+
+## 📬 Contact
+
+- 📧 Email: thucmien2002@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/thucmien  
+- 💻 GitHub: https://github.com/thucmien2002  
+
+---
+
+## ⭐ Notes
+
+Due to confidentiality agreements, some real-world projects cannot be publicly shared. However, this portfolio reflects my actual experience in building scalable and production-ready frontend systems.
+
+---
+
+## 📄 License
+
+This project is for personal portfolio use.
